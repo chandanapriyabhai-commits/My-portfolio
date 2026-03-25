@@ -1,0 +1,148 @@
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  background-color: #007BFF;
+  color: white;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Navigation styling */
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.nav-buttons a {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: rgb(211, 226, 77);
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.nav-buttons a:hover {
+  background-color: #0056b3;
+}
+
+h2{
+  background-color:#c8c9c4;
+}
+/* Section Styling */
+section {
+  padding: 30px;
+  margin: 20px;
+  background-color: #f9f9f9;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* Skills list */
+#Skills {
+  text-align: center;
+  background-color:#fff;
+}
+
+#Skills ol {
+  display: inline-block;            /* Keeps list centered */
+  text-align: left;                 /* Aligns items neatly inside */
+  list-style-position: inside;      /* Numbers closer to text */
+  margin: 0;
+  padding: 0;
+}
+
+#Skills li {
+  margin: 4px 0;                    /* Small gap between items */
+  font-size: 16px;
+}
+
+
+/* Project cards */
+
+.project-card {
+  border: 1px solid #161616;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #c40f0f;
+}
+
+/* Education list */
+#education ul {
+  list-style-type: square;
+  text-align: left;
+  background-color:#fff;
+}
+
+/* Contact Form */
+
+form {
+  max-width: 600px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.form-group {
+  display: flex;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.form-group > label {
+  width: 120px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  flex: 1;
+  padding: 6px;
+  border: 1px solid #a85858;
+  border-radius: 5px;
+}
+
+.inline-options {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #74d5f9;
+  color: white;
+  margin-top: 30px;
+}
